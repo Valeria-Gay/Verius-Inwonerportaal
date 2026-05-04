@@ -245,6 +245,116 @@
           "$value": "#FFFFFF"
         }
       }
+    },
+    "verius": {
+      "kleuren": {
+        "dusk": {
+          "50": {
+            "$type": "color",
+            "$value": "#DAE2E2"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "#BDC9CA"
+          },
+          "200": {
+            "$type": "color",
+            "$value": "#9DABAC"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#879A9B"
+          },
+          "400": {
+            "$type": "color",
+            "$value": "#62787B"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#3F5D60"
+          },
+          "600": {
+            "$type": "color",
+            "$value": "#27494C"
+          },
+          "700": {
+            "$type": "color",
+            "$value": "#0F3538"
+          }
+        },
+        "radiance": {
+          "50": {
+            "$type": "color",
+            "$value": "#FFF3E6"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "#FFE2CC"
+          },
+          "200": {
+            "$type": "color",
+            "$value": "#FFC599"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#FFA766"
+          },
+          "400": {
+            "$type": "color",
+            "$value": "#FF8A33"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#FF6600"
+          },
+          "600": {
+            "$type": "color",
+            "$value": "#CC5200"
+          },
+          "700": {
+            "$type": "color",
+            "$value": "#993D00"
+          }
+        },
+        "gleam": {
+          "50": {
+            "$type": "color",
+            "$value": "#FBEFC5"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "#F9E7A8"
+          },
+          "200": {
+            "$type": "color",
+            "$value": "#F8DF8B"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#ECD484"
+          },
+          "400": {
+            "$type": "color",
+            "$value": "#D5BB6C"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#BFA355"
+          },
+          "600": {
+            "$type": "color",
+            "$value": "#A88B3E"
+          },
+          "700": {
+            "$type": "color",
+            "$value": "#8F7329"
+          }
+        },
+        "twilight": {
+          "$type": "color",
+          "$value": "#0F2021"
+        }
+      }
     }
   },
   "common": {
@@ -253,7 +363,7 @@
         "font-family": {
           "default": {
             "$type": "fontFamilies",
-            "$value": "Noto Sans, sans-serif"
+            "$value": "Rethink Sans, sans-serif"
           },
           "monospace": {
             "$type": "fontFamilies",
@@ -391,7 +501,7 @@
           },
           "color-document": {
             "$type": "color",
-            "$value": "{voorbeeld.kleuren.grijs.700}"
+            "$value": "{verius.kleuren.twilight}"
           }
         },
         "accent-1": {
@@ -401,55 +511,55 @@
           },
           "bg-subtle": {
             "$type": "color",
-            "$value": "{voorbeeld.kleuren.violet.50}"
+            "$value": "{verius.kleuren.dusk.50}"
           },
           "bg-default": {
             "$type": "color",
-            "$value": "{voorbeeld.kleuren.violet.100}"
+            "$value": "{verius.kleuren.dusk.100}"
           },
           "bg-hover": {
             "$type": "color",
-            "$value": "{voorbeeld.kleuren.violet.200}"
+            "$value": "{verius.kleuren.dusk.200}"
           },
           "bg-active": {
             "$type": "color",
-            "$value": "{voorbeeld.kleuren.violet.200}"
+            "$value": "{verius.kleuren.dusk.200}"
           },
           "border-subtle": {
             "$type": "color",
-            "$value": "{voorbeeld.kleuren.violet.300}"
+            "$value": "{verius.kleuren.dusk.300}"
           },
           "border-default": {
             "$type": "color",
-            "$value": "{voorbeeld.kleuren.violet.400}"
+            "$value": "{verius.kleuren.dusk.400}"
           },
           "border-hover": {
             "$type": "color",
-            "$value": "{voorbeeld.kleuren.violet.500}"
+            "$value": "{verius.kleuren.dusk.500}"
           },
           "border-active": {
             "$type": "color",
-            "$value": "{voorbeeld.kleuren.violet.500}"
+            "$value": "{verius.kleuren.dusk.500}"
           },
           "color-default": {
             "$type": "color",
-            "$value": "{voorbeeld.kleuren.violet.500}"
+            "$value": "{verius.kleuren.dusk.500}"
           },
           "color-hover": {
             "$type": "color",
-            "$value": "{voorbeeld.kleuren.violet.600}"
+            "$value": "{verius.kleuren.dusk.600}"
           },
           "color-active": {
             "$type": "color",
-            "$value": "{voorbeeld.kleuren.violet.600}"
+            "$value": "{verius.kleuren.dusk.600}"
           },
           "color-subtle": {
             "$type": "color",
-            "$value": "{voorbeeld.kleuren.violet.400}"
+            "$value": "{verius.kleuren.dusk.400}"
           },
           "color-document": {
             "$type": "color",
-            "$value": "{voorbeeld.kleuren.violet.700}"
+            "$value": "{verius.kleuren.dusk.700}"
           }
         },
         "accent-2": {
@@ -1151,39 +1261,39 @@
         "accent-1-inverse": {
           "bg-document": {
             "$type": "color",
-            "$value": "{voorbeeld.kleuren.violet.600}"
+            "$value": "{verius.kleuren.dusk.600}"
           },
           "bg-subtle": {
             "$type": "color",
-            "$value": "{voorbeeld.kleuren.violet.700}"
+            "$value": "{verius.kleuren.dusk.700}"
           },
           "bg-default": {
             "$type": "color",
-            "$value": "{voorbeeld.kleuren.violet.500}"
+            "$value": "{verius.kleuren.dusk.500}"
           },
           "bg-hover": {
             "$type": "color",
-            "$value": "{voorbeeld.kleuren.violet.600}"
+            "$value": "{verius.kleuren.dusk.600}"
           },
           "bg-active": {
             "$type": "color",
-            "$value": "{voorbeeld.kleuren.violet.600}"
+            "$value": "{verius.kleuren.dusk.600}"
           },
           "border-subtle": {
             "$type": "color",
-            "$value": "{voorbeeld.kleuren.violet.400}"
+            "$value": "{verius.kleuren.dusk.400}"
           },
           "border-default": {
             "$type": "color",
-            "$value": "{voorbeeld.kleuren.violet.300}"
+            "$value": "{verius.kleuren.dusk.400}"
           },
           "border-hover": {
             "$type": "color",
-            "$value": "{voorbeeld.kleuren.violet.200}"
+            "$value": "{verius.kleuren.dusk.300}"
           },
           "border-active": {
             "$type": "color",
-            "$value": "{voorbeeld.kleuren.violet.200}"
+            "$value": "{verius.kleuren.dusk.200}"
           },
           "color-default": {
             "$type": "color",
@@ -1199,7 +1309,7 @@
           },
           "color-subtle": {
             "$type": "color",
-            "$value": "{voorbeeld.kleuren.violet.300}"
+            "$value": "{verius.kleuren.dusk.300}"
           },
           "color-document": {
             "$type": "color",
@@ -1333,7 +1443,7 @@
           },
           "bg-default": {
             "$type": "color",
-            "$value": "{voorbeeld.kleuren.violet.500}"
+            "$value": "{verius.kleuren.dusk.700}"
           },
           "bg-hover": {
             "$type": "color",
@@ -2865,7 +2975,7 @@
         },
         "font-family": {
           "$type": "fontFamilies",
-          "$value": "Noto Serif, serif"
+          "$value": "Parkinsans, sans-serif"
         },
         "font-weight": {
           "$type": "fontWeights",
